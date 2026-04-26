@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="28" fill="#1a1a2e"/>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M90 20 C40 20 30 60 30 90 L30 130 Q30 145 40 145 L50 145 Q60 145 60 135 L60 145 Q70 145 70 135 L70 145 Q80 145 80 135 L80 145 Q90 145 90 135 L90 145 Q100 145 100 135 L100 145 Q110 145 110 135 L110 145 Q120 145 120 135 L120 145 Q130 145 130 135 L130 145 Q140 145 140 145 Q150 145 150 130 L150 90 C150 60 140 20 90 20 Z" fill="#e8e8f0" filter="url(#glow)"/>
+  <ellipse cx="65" cy="70" rx="12" ry="16" fill="#1a1a2e"/>
+  <ellipse cx="115" cy="70" rx="12" ry="16" fill="#1a1a2e"/>
+  <path d="M55 100 Q65 110 75 100" stroke="#1a1a2e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="90" cy="140" r="25" fill="#e8e8f0" opacity="0.3"/>
+</svg>
